@@ -104,12 +104,12 @@ h1 {
 }
 #searchInput { 
   flex: 1; 
-  padding: 2px 3px;      /* ← 縦横の余白を小さめに */
-  font-size: 18px;       /* ← 正常な文字サイズに修正 */
+  padding: 4px 6px;      /* ← 内側縦横の余白を小さめに */
+  font-size: 36px;       /* ← 正常な文字サイズに修正 */
   border: 1px solid var(--color-gray-border); 
   border-radius: 6px; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  height: 36px;          /* ← 縦の高さを少し抑える */
+  height: 50px;          /* ← 縦の高さを少し抑える */
 }
   #searchInput:focus {
   outline: none;
@@ -138,17 +138,17 @@ h1 {
   display: inline-flex;
   align-items: center;
   margin-right: 14px;  /* ← チェックボックス同士の間隔 */
-  margin-bottom: 6px;  /* 縦方向の余白 ← ここを追加/調整 */
-  padding-left: 4px;  /* ← 左側の余白（不要なら0でも可） */
+  margin-bottom: 10px;  /* 縦方向の余白 ← ここを追加/調整 */
+  padding-left: 6px;  /* ← 左側の余白（不要なら0でも可） */
   cursor: pointer;
   line-height: 1.1;
-  font-size: 20px;      /* ← ラベル文字を大きめに */
+  font-size: 24px;      /* ← ラベル文字を大きめに */
 }
 
 /* チェックボックス本体 */
 .checkbox-group input[type="checkbox"] {
-  transform: scale(1.2); /* ← チェックボックスを拡大 */
-  margin-right: 4px;     /* ← 文字との間隔 */
+  transform: scale(1.4); /* ← チェックボックスを拡大 */
+  margin-right: 6px;     /* ← 文字との間隔 */
 }
 
 .checkbox-group input:checked + span {
@@ -171,7 +171,7 @@ h1 {
   display: flex; 
   gap: 3px;          /* ボタン同士の隙間 */
   width: 100%; 
-  margin-top: 12px; 
+  margin-top: 10px; 
 }
 
 .buttons-wrapper button {
@@ -234,7 +234,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 220px; /* ← 画像を大きくした分 少し高さを確保 */
+  min-height: 260px; /* ← 画像を大きくした分 少し高さを確保 */
 }
 
 /* カード画像 */
@@ -268,10 +268,10 @@ h1 {
 
 /* 募集枚数 */
 .card-quantity {
-  font-size: 12px;   /* ← 14px → 15px */
+  font-size: 18px;   /* ← 14px → 15px */
   font-weight: bold;
   color: #a66b6f;
-  margin: 1px 0;
+  margin: 2px 0;
 }
 
 /* 注意書き */
@@ -285,7 +285,7 @@ h1 {
 /* 価格 */
 .card-price {
   font-weight: bold;
-  font-size: 14px;  /* ← 18px → 20px に強調 */
+  font-size: 22px;  /* ← 18px → 20px に強調 */
   color: #e53935;   /* ← 価格は目立たせる */
   white-space: nowrap;
   overflow: hidden;
